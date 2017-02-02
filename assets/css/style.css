@@ -12,6 +12,10 @@ ul {
     padding: 0;
 }
 
+article {
+	padding: 10px 10px 10px 0px;
+}
+
 li {
     display: inline-block;
     border-right: 1px solid #eee;
@@ -41,14 +45,11 @@ section {
 	width: 650px;
 	text-align: center;
 	color: #777;
-	background-color: #ffffff;
-
-
-	
+	background-color: #ffffff;	
 }
 
 hr {
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-right: 20px;
 }
 
@@ -94,7 +95,6 @@ h3 {
 	display: inline; 
 	color: #4aaaa5;
 	font-weight: 200;
-
 }
 
 aside{
@@ -104,8 +104,7 @@ aside{
     width: 270px;
     color: #777;
     height: 100%;
-    padding: 44px 0px 29px 0px;
-
+    padding: 25px 0px 29px 0px;
 }
 
 footer {
@@ -127,7 +126,7 @@ p {
     line-height: 26px;
     font-size: 16px;
     width: 100%;
-
+    padding: 10px 0px 10px 0px;
 }
 
 a {
@@ -188,8 +187,6 @@ input {
 	min-height: 100%;
 	/* equal to footer height */
   	margin-bottom: -61px; 
-
-
 }
 
 .wrapper:after {
@@ -201,6 +198,7 @@ input {
 .site-footer, .wrapper:after {
   padding: 20px; 
 }
+
 .site-footer {
 }
 
@@ -258,7 +256,7 @@ input {
 }
 
 .social_icons {
-	padding: 27px;
+	padding: 22px;
 }
 
 .portfolio_row_1 {
